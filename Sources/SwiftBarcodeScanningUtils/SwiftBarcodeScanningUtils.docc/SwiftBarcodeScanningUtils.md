@@ -1,6 +1,6 @@
 # ``SwiftBarcodeScanningUtils``
 
-_Swift utilities for scanning barcodes with Apple's Vision Framework.._
+_Swift utilities for scanning barcodes with Apple's Vision Framework._
 
 ## Overview
 
@@ -9,4 +9,6 @@ _Swift utilities for scanning barcodes with Apple's Vision Framework.._
 ## Topics
 
 ### Essentials
+
+- ``BarcodeScannerOperator``
 

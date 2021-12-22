@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "MyPackageName",
+    name: "SwiftBarcodeScanningUtils",
     platforms: [
         .iOS(.v15),
         .macOS(.v12),
@@ -14,9 +14,9 @@ let package = Package(
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
-            name: "MyLibraryName",
+            name: "SwiftBarcodeScanningUtils",
             targets: [
-                "MyLibraryName",
+                "SwiftBarcodeScanningUtils",
             ]
         ),
     ],
@@ -28,20 +28,20 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
-            name: "MyLibraryName",
+            name: "SwiftBarcodeScanningUtils",
             dependencies: [
             ],
-            path: "Sources/MyLibraryName/",
+            path: "Sources/SwiftBarcodeScanningUtils/",
             resources: [
                 .process("Resources"),
             ]
         ),
         .testTarget(
-            name: "MyLibraryNameTests",
+            name: "SwiftBarcodeScanningUtilsTests",
             dependencies: [
-                "MyLibraryName",
+                "SwiftBarcodeScanningUtils",
             ],
-            path: "Tests/MyLibraryName/",
+            path: "Tests/SwiftBarcodeScanningUtils/",
             exclude: [
                 "Resources/README.md",
                 "Toolbox/README.md",
